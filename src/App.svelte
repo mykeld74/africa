@@ -23,7 +23,7 @@
     width: 50%;
     max-width: 150px;
     height: 83vh;
-    border: 3px ridge #333;
+    border: 4px ridge #222;
     background: #fff;
     border-radius: 75px;
     display: flex;
@@ -36,8 +36,9 @@
   .currentAmount {
     width: 100%;
     /* height: 25%; */
-    background: #b53737;
+    background: #990000;
     transition: all 0.3s ease-in-out;
+    border-top: 2px inset #bb0000;
   }
   .amounts {
     width: 50%;
@@ -45,6 +46,8 @@
     display: grid;
     grid-area: numbers;
     font-weight: 600;
+    margin-left: 4vw;
+    font-size: clamp(14px, 3vw, 24px);
   }
   .amount {
     align-self: center;
