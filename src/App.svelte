@@ -46,7 +46,7 @@
     display: grid;
     grid-area: numbers;
     font-weight: 600;
-    margin-left: 4vw;
+    margin-left: clamp(20px, 4vw, 30px);
     font-size: clamp(14px, 3vw, 24px);
   }
   .amount {
